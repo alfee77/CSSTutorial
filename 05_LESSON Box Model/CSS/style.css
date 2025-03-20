@@ -6,8 +6,9 @@
 
 .container {
     border: 10px double red;
+    text-align:center;
     font-size: 1.5rem;
-    margin: 1.5em;
+    margin: 1.5em auto;
     /* margin-top: 1.5em;
     margin-right: 2em;
     margin-bottom: 2em;
@@ -18,7 +19,7 @@
 }
 
 .circle {
-    margin: 3rem auto;
+    margin: 5rem auto;
     background-color: gold;
     width: 100px;
     height: 100px;
@@ -26,5 +27,24 @@
     border-radius: 50px;
     outline: 2px solid red;
     outline-offset: 0.25rem;
-
 }
+
+.circle-big {
+    margin: 5rem auto;
+    background-color: papayawhip;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 100px;
+    outline: 2px solid peachpuff;
+    outline-offset: 0.25rem;
+}
+
+h1 {
+    background: lightblue;
+    padding: 2rem;
+    border: 1.5rem solid white;
+    margin: 1.5rem;
+    outline: 1.5rem solid lightgray;   
+}
+
